@@ -1,0 +1,9 @@
+#VSC generated code
+./.vscode/*.*
+
+#Build results
+*.o
+*.exe
+
+#Secret files
+#./src/encryption/*.*

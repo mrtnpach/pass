@@ -1,0 +1,6 @@
+UserA@Site1=25
+UserA@Site2=10
+UserA@Site3=20
+UserC@Site2=25
+UserB@Site3=10
+UserB@Site4=23
