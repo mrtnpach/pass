@@ -11,7 +11,7 @@ int main(int argc, char* argv[])
 
     if(argc < 2 || argc > 3)
     {
-        PrintMessage("Full command should look like this:\n\n\t\t \\pass [password] [user or site]");
+        PrintMessage("Full command should look like this:\n\n\t\t \\pass [password] [username or site]");
     }
     else
     {

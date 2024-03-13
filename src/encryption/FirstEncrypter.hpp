@@ -16,6 +16,7 @@ class FirstEncrypter
 
     size_t CalculateStringLength(const char* string);
 
+    // TWEAKS: Digits bank
     const char digitsBank[20][50] = 
     {
         "zYcf*};6;P-[f3,)}p[zZhD/}aD,7NK{gJmSCQ8L}PMXQTwCF",
@@ -43,9 +44,9 @@ class FirstEncrypter
     int _digitBankRowCount;
     int _digitBankColumnCount;
 
+    // TWEAKS: Other values
     // Values for FirstEncrypter::GenerateSeed
     int _customSeed = 4912;
-
     // Values for FirstEncrypter::GeneratePassword
     int _saltConstant = 277;
     int _rowSelectionSalt = 5271;
